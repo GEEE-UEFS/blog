@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog</title>
-    <link>http://localhost:1313/</link>
+    <link>Your%20Site%20URL/</link>
     <description>Recent content on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
     <copyright>© 2016 Copyright Text</copyright>
     <lastBuildDate>Wed, 02 Dec 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="Your%20Site%20URL/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ESP8266 e NodeMCU</title>
-      <link>http://localhost:1313/2015/12/02/esp8266-e-nodemcu/</link>
+      <link>/Your%20Site%20URL/2015/12/02/esp8266-e-nodemcu/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2015/12/02/esp8266-e-nodemcu/</guid>
+      <guid>/Your%20Site%20URL/2015/12/02/esp8266-e-nodemcu/</guid>
       <description>
 
 &lt;p&gt;O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.&lt;/br&gt;&lt;/p&gt;
@@ -27,7 +27,7 @@
 &lt;p&gt;Além do ESP8266, você precisa de um conversor usb/uart e  uma fonte de alimentação de 3.3V.&lt;/br&gt;
 As ligações necessárias podem ser vistas na imagem abaixo.&lt;/br&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/Liga%C3%A7%C3%B5es%20ESP.png&#34; alt=&#34;ligacoes&#34; /&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/Liga%C3%A7%C3%B5es%20ESP.png&#34; alt=&#34;ligacoes&#34; /&gt;&lt;/br&gt;&lt;/p&gt;
 
 &lt;p&gt;Há basicamente três modulos de operação: atualização de firmware, upload de novos programas e modo de operação.&lt;/br&gt;
 Para atualização de firmware, todas as ligações apresentadas na imagem acima devem ser utilizadas.&lt;/br&gt;
@@ -43,13 +43,13 @@ Para o modo de operação, é necessario apenas as ligações em preto.&lt;/br&g
     -64 bits: &lt;a href=&#34;https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release&#34;&gt;https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release&lt;/a&gt;&lt;/br&gt;&lt;/p&gt;
 
 &lt;p&gt;Após o download, conecte o módulo ao computador conforme as instruçõescom para o modo atualização de firmare e abra o executável e clique no botão Flash(F).&lt;/br&gt;
-&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/1.png&#34; alt=&#34;Instalando1&#34; /&gt;&lt;/br&gt;
+&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/1.png&#34; alt=&#34;Instalando1&#34; /&gt;&lt;/br&gt;
 Espere até o processo ser concluido.&lt;/br&gt;
-&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/2.png&#34; alt=&#34;Instalando2&#34; /&gt;&lt;/br&gt;
+&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/2.png&#34; alt=&#34;Instalando2&#34; /&gt;&lt;/br&gt;
 Quando aparecer o símbolo de confirmado na parte inferior da janela ao lado da frase &amp;ldquo;NODEMCU TEAM&amp;rdquo; significa que o firmware foi atualizado.&lt;/br&gt;
-&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/3.png&#34; alt=&#34;Instalando3&#34; /&gt;&lt;/br&gt;
+&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/3.png&#34; alt=&#34;Instalando3&#34; /&gt;&lt;/br&gt;
 Na aba &amp;ldquo;Config&amp;rdquo; estará desse jeito.&lt;/br&gt;
-&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/4.png&#34; alt=&#34;Instalando4&#34; /&gt;&lt;/br&gt;&lt;/p&gt;
+&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/4.png&#34; alt=&#34;Instalando4&#34; /&gt;&lt;/br&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;ide-para-upload:abb75c0fa4516ee7d9731b136bf5f22b&#34;&gt;IDE para upload&lt;/h2&gt;
 
@@ -57,17 +57,17 @@ Na aba &amp;ldquo;Config&amp;rdquo; estará desse jeito.&lt;/br&gt;
 O download pode ser feito no link: &lt;/br&gt;
     &lt;a href=&#34;http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip&#34;&gt;http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip&lt;/a&gt;
 &lt;/br&gt;
-&lt;img src=&#34;http://localhost:1313/images/esp8266-nodemc-tutorial/ide_esplorer.png&#34; alt=&#34;Esplorer&#34; /&gt;
+&lt;img src=&#34;Your Site URL/images/esp8266-nodemc-tutorial/ide_esplorer.png&#34; alt=&#34;Esplorer&#34; /&gt;
     IDE do Esplorer&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://localhost:1313/2014/09/28/creating-a-new-theme/</link>
+      <link>/Your%20Site%20URL/2014/09/28/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/09/28/creating-a-new-theme/</guid>
+      <guid>/Your%20Site%20URL/2014/09/28/creating-a-new-theme/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:203afb8fdc074e80a6a8cddc7dc8ce70&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
@@ -1150,10 +1150,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://localhost:1313/2014/04/02/hugo-template-primer/</link>
+      <link>/Your%20Site%20URL/2014/04/02/hugo-template-primer/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/04/02/hugo-template-primer/</guid>
+      <guid>/Your%20Site%20URL/2014/04/02/hugo-template-primer/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -1212,7 +1212,7 @@ functions.&lt;/p&gt;
 &lt;p&gt;Each go template has a struct (object) made available to it. In hugo each
 template is passed either a page or a node struct depending on which type of
 page you are rendering. More details are available on the
-&lt;a href=&#34;http://localhost:1313/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
+&lt;a href=&#34;Your Site URL/layout/variables&#34;&gt;variables&lt;/a&gt; page.&lt;/p&gt;
 
 &lt;p&gt;A variable is accessed by referencing the variable name.&lt;/p&gt;
 
@@ -1229,7 +1229,7 @@ page you are rendering. More details are available on the
 
 &lt;p&gt;Go template ship with a few functions which provide basic functionality. The go
 template system also provides a mechanism for applications to extend the
-available functions with their own. &lt;a href=&#34;http://localhost:1313/layout/functions&#34;&gt;Hugo template
+available functions with their own. &lt;a href=&#34;Your Site URL/layout/functions&#34;&gt;Hugo template
 functions&lt;/a&gt; provide some additional functionality we believe
 are useful for building websites. Functions are called by using their name
 followed by the required parameters separated by spaces. Template
@@ -1417,7 +1417,7 @@ you want to inside of your templates.&lt;/p&gt;
 &lt;h2 id=&#34;using-content-page-parameters:4d30d99f79bd431d57546bbed04b7347&#34;&gt;Using Content (page) Parameters&lt;/h2&gt;
 
 &lt;p&gt;In each piece of content you can provide variables to be used by the
-templates. This happens in the &lt;a href=&#34;http://localhost:1313/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
+templates. This happens in the &lt;a href=&#34;Your Site URL/content/front-matter&#34;&gt;front matter&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;An example of this is used in this documentation site. Most of the pages
 benefit from having the table of contents provided. Sometimes the TOC just
@@ -1496,10 +1496,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://localhost:1313/2014/04/02/getting-started-with-hugo/</link>
+      <link>/Your%20Site%20URL/2014/04/02/getting-started-with-hugo/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/04/02/getting-started-with-hugo/</guid>
+      <guid>/Your%20Site%20URL/2014/04/02/getting-started-with-hugo/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -1509,7 +1509,7 @@ appropriate version for your os and architecture.&lt;/p&gt;
 
 &lt;p&gt;Save it somewhere specific as we will be using it in the next step.&lt;/p&gt;
 
-&lt;p&gt;More complete instructions are available at &lt;a href=&#34;http://localhost:1313/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;More complete instructions are available at &lt;a href=&#34;Your Site URL/overview/installing/&#34;&gt;installing hugo&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&#34;step-2-build-the-docs:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 2. Build the Docs&lt;/h2&gt;
 
@@ -1583,10 +1583,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://localhost:1313/2014/03/10/migrate-to-hugo-from-jekyll/</link>
+      <link>/Your%20Site%20URL/2014/03/10/migrate-to-hugo-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://localhost:1313/2014/03/10/migrate-to-hugo-from-jekyll/</guid>
+      <guid>/Your%20Site%20URL/2014/03/10/migrate-to-hugo-from-jekyll/</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static:964c172ef5e837f03573891408d8d631&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;
@@ -1611,7 +1611,7 @@ With Jekyll, something that looked like&lt;/p&gt;
 
 &lt;h2 id=&#34;create-your-hugo-configuration-file:964c172ef5e837f03573891408d8d631&#34;&gt;Create your Hugo configuration file&lt;/h2&gt;
 
-&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;http://localhost:1313/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
+&lt;p&gt;Hugo can read your configuration as JSON, YAML or TOML. Hugo supports parameters custom configuration too. Refer to the &lt;a href=&#34;Your Site URL/overview/configuration/&#34;&gt;Hugo configuration documentation&lt;/a&gt; for details.&lt;/p&gt;
 
 &lt;h2 id=&#34;set-your-configuration-publish-folder-to-site:964c172ef5e837f03573891408d8d631&#34;&gt;Set your configuration publish folder to &lt;code&gt;_site&lt;/code&gt;&lt;/h2&gt;
 
@@ -1637,13 +1637,13 @@ git submodule add -b gh-pages git@github.com:your-username/your-repo.git public
 
 &lt;h2 id=&#34;convert-jekyll-templates-to-hugo-templates:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll templates to Hugo templates&lt;/h2&gt;
 
-&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;http://localhost:1313/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
+&lt;p&gt;That&amp;rsquo;s the bulk of the work right here. The documentation is your friend. You should refer to &lt;a href=&#34;http://jekyllrb.com/docs/templates/&#34;&gt;Jekyll&amp;rsquo;s template documentation&lt;/a&gt; if you need to refresh your memory on how you built your blog and &lt;a href=&#34;Your Site URL/layout/templates/&#34;&gt;Hugo&amp;rsquo;s template&lt;/a&gt; to learn Hugo&amp;rsquo;s way.&lt;/p&gt;
 
 &lt;p&gt;As a single reference data point, converting my templates for &lt;a href=&#34;http://heyitsalex.net/&#34;&gt;heyitsalex.net&lt;/a&gt; took me no more than a few hours.&lt;/p&gt;
 
 &lt;h2 id=&#34;convert-jekyll-plugins-to-hugo-shortcodes:964c172ef5e837f03573891408d8d631&#34;&gt;Convert Jekyll plugins to Hugo shortcodes&lt;/h2&gt;
 
-&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;http://localhost:1313/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
+&lt;p&gt;Jekyll has &lt;a href=&#34;http://jekyllrb.com/docs/plugins/&#34;&gt;plugins&lt;/a&gt;; Hugo has &lt;a href=&#34;Your Site URL/doc/shortcodes/&#34;&gt;shortcodes&lt;/a&gt;. It&amp;rsquo;s fairly trivial to do a port.&lt;/p&gt;
 
 &lt;h3 id=&#34;implementation:964c172ef5e837f03573891408d8d631&#34;&gt;Implementation&lt;/h3&gt;
 
