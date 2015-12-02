@@ -1,5 +1,5 @@
 theme="hikari"
-baseurl = "http://geee-uefs.github.io/blog"
+baseurl = "http://geee-uefs.github.io/blog/"
 languageCode = "pt-br"
 title = "Blog"
 MetaDataFormat = "toml"
