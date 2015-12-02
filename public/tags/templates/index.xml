@@ -5,17 +5,17 @@
     <link>http://geee-uefs.github.io/blog/tags/templates/</link>
     <description>Recent content in Templates on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <copyright>© 2016 Copyright Text</copyright>
+    <language>pt-BR</language>
+    <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://geee-uefs.github.io/blog/tags/templates/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</link>
+      <link>http://geee-uefs.github.io/blog/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/goisforlovers/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for

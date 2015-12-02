@@ -5,17 +5,17 @@
     <link>http://geee-uefs.github.io/blog/categories/embarcados/</link>
     <description>Recent content in Embarcados on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <copyright>© 2016 Copyright Text</copyright>
+    <language>pt-BR</language>
+    <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 02 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://geee-uefs.github.io/blog/categories/embarcados/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ESP8266 e NodeMCU</title>
-      <link>http://geee-uefs.github.io/blog/2015/12/02/esp8266-e-nodemcu/</link>
+      <link>http://geee-uefs.github.io/blog/post/esp8266-nodemcu/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2015/12/02/esp8266-e-nodemcu/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/esp8266-nodemcu/</guid>
       <description>
 
 &lt;p&gt;O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.&lt;/br&gt;&lt;/p&gt;

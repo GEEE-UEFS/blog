@@ -5,17 +5,17 @@
     <link>http://geee-uefs.github.io/blog/post/</link>
     <description>Recent content in Posts on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <copyright>© 2016 Copyright Text</copyright>
+    <language>pt-BR</language>
+    <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 02 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://geee-uefs.github.io/blog/post/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>ESP8266 e NodeMCU</title>
-      <link>http://geee-uefs.github.io/blog/2015/12/02/esp8266-e-nodemcu/</link>
+      <link>http://geee-uefs.github.io/blog/post/esp8266-nodemcu/</link>
       <pubDate>Wed, 02 Dec 2015 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2015/12/02/esp8266-e-nodemcu/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/esp8266-nodemcu/</guid>
       <description>
 
 &lt;p&gt;O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.&lt;/br&gt;&lt;/p&gt;
@@ -64,10 +64,10 @@ O download pode ser feito no link: &lt;/br&gt;
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</link>
+      <link>http://geee-uefs.github.io/blog/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/goisforlovers/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -410,10 +410,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://geee-uefs.github.io/blog/2014/04/02/getting-started-with-hugo/</link>
+      <link>http://geee-uefs.github.io/blog/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/04/02/getting-started-with-hugo/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/hugoisforlovers/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
@@ -497,10 +497,10 @@ Having nearly instant feedback enables you to have your creativity flow without 
     
     <item>
       <title>Creating a New Theme</title>
-      <link>http://geee-uefs.github.io/blog/2014/09/28/creating-a-new-theme/</link>
+      <link>http://geee-uefs.github.io/blog/post/creating-a-new-theme/</link>
       <pubDate>Sun, 28 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/09/28/creating-a-new-theme/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/creating-a-new-theme/</guid>
       <description>
 
 &lt;h3 id=&#34;introduction:203afb8fdc074e80a6a8cddc7dc8ce70&#34;&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/h3&gt;
@@ -1583,10 +1583,10 @@ $ vi themes/zafta/layouts/_default/single.html
     
     <item>
       <title>Migrate to Hugo from Jekyll</title>
-      <link>http://geee-uefs.github.io/blog/2014/03/10/migrate-to-hugo-from-jekyll/</link>
+      <link>http://geee-uefs.github.io/blog/post/migrate-from-jekyll/</link>
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/03/10/migrate-to-hugo-from-jekyll/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/migrate-from-jekyll/</guid>
       <description>
 
 &lt;h2 id=&#34;move-static-content-to-static:964c172ef5e837f03573891408d8d631&#34;&gt;Move static content to &lt;code&gt;static&lt;/code&gt;&lt;/h2&gt;

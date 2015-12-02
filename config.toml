@@ -1,32 +1,24 @@
-theme="hikari"
-baseurl = "http://geee-uefs.github.io/blog/"
-languageCode = "pt-br"
-title = "Blog"
-MetaDataFormat = "toml"
-paginate = 9 # To specify a multiple of 3
-copyright = "© 2016 Copyright Text"
+BaseUrl= "http://geee-uefs.github.io/blog/"
+LanguageCode= "pt-BR"
+Title= "Blog"
+paginate = 5
+DisqusShortname = "geee-uefs"
+Copyright = "All rights reserved - 2016"
+canonifyurls = true
 
 [params]
-  description = "Grupo de Estudos em Eletrônica Embarcada" # optional
-  disqusshortname = "geee-uefs"
-  copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © GEEE-UEFS"
-  pageNotFoundTitle = "Page not found"
-	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
-
-[permalinks]
-  post = "/:year/:month/:day/:title/" # optional
-
-[params.offcanvas]
-	# Menu items
-	title = "GEEE UEFS"
-	bio = "Grupo de Estudos em Eletrônica Embarcada"
-	subscribe = "Subscribe"
-	followme = "Siga-nos!"
-
-	[[params.offcanvas.socialnetworks]]
-		name = "Github"
-		url = "//github.com/geee-uefs"
-
-	[[params.offcanvas.socialnetworks]]
-		name = "Twitter"
-		url = "//twitter.com/geee-uefs"
+  description = "this is my description"
+  cover = "images/cover.jpg"
+  author = "Valère JEANTET"
+  authorlocation = "Paris, France"
+  authorwebsite = "http://github.com/geee-uefs"
+  bio= "my bio"
+  logo = "images/logo.png"
+  googleAnalyticsUserID = "UA-79101-12"
+  # Optional RSS-Link, if not provided it defaults to the standard index.xml
+  RSSLink = "http://feeds.feedburner.com/..."
+  githubName = "geee-uefs"
+  twitterName = "geee-uefs"
+  # facebookName = ""
+  # set true if you are not proud of using Hugo (true will hide the footer note "Proudly published with HUGO.....")
+  hideHUGOSupport = false

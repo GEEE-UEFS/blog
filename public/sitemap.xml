@@ -8,27 +8,27 @@
   </url>
   
   <url>
-    <loc>http://geee-uefs.github.io/blog/2015/12/02/esp8266-e-nodemcu/</loc>
+    <loc>http://geee-uefs.github.io/blog/post/esp8266-nodemcu/</loc>
     <lastmod>2015-12-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://geee-uefs.github.io/blog/2014/09/28/creating-a-new-theme/</loc>
+    <loc>http://geee-uefs.github.io/blog/post/goisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://geee-uefs.github.io/blog/post/hugoisforlovers/</loc>
+    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://geee-uefs.github.io/blog/post/creating-a-new-theme/</loc>
     <lastmod>2014-09-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://geee-uefs.github.io/blog/2014/04/02/getting-started-with-hugo/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</loc>
-    <lastmod>2014-04-02T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://geee-uefs.github.io/blog/2014/03/10/migrate-to-hugo-from-jekyll/</loc>
+    <loc>http://geee-uefs.github.io/blog/post/migrate-from-jekyll/</loc>
     <lastmod>2014-03-10T00:00:00+00:00</lastmod>
   </url>
   

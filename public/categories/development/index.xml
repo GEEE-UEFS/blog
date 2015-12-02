@@ -5,17 +5,17 @@
     <link>http://geee-uefs.github.io/blog/categories/development/</link>
     <description>Recent content in Development on Blog</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>pt-br</language>
-    <copyright>© 2016 Copyright Text</copyright>
+    <language>pt-BR</language>
+    <copyright>All rights reserved - 2016</copyright>
     <lastBuildDate>Wed, 02 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://geee-uefs.github.io/blog/categories/development/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>(Hu)go Template Primer</title>
-      <link>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</link>
+      <link>http://geee-uefs.github.io/blog/post/goisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/04/02/hugo-template-primer/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/goisforlovers/</guid>
       <description>
 
 &lt;p&gt;Hugo uses the excellent &lt;a href=&#34;http://golang.org/&amp;gt;&#34;&gt;go&lt;/a&gt; &lt;a href=&#34;http://golang.org/pkg/html/template/&amp;gt;&#34;&gt;html/template&lt;/a&gt; library for
@@ -358,10 +358,10 @@ so, such as in this example:&lt;/p&gt;
     
     <item>
       <title>Getting Started with Hugo</title>
-      <link>http://geee-uefs.github.io/blog/2014/04/02/getting-started-with-hugo/</link>
+      <link>http://geee-uefs.github.io/blog/post/hugoisforlovers/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
       
-      <guid>http://geee-uefs.github.io/blog/2014/04/02/getting-started-with-hugo/</guid>
+      <guid>http://geee-uefs.github.io/blog/post/hugoisforlovers/</guid>
       <description>
 
 &lt;h2 id=&#34;step-1-install-hugo:c57cc0038c788519b441e0331c8bebc7&#34;&gt;Step 1. Install Hugo&lt;/h2&gt;
