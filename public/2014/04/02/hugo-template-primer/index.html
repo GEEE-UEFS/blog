@@ -1,71 +1,82 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+
+
+
+ <html class="no-js"> 
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
-  <title>(Hu)go Template Primer</title>
-  <link href="http://localhost:1313//css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="http://localhost:1313//css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
-  <style type="text/css">
-  
-    footer.page-footer{background-image: url(http://localhost:1313//images/default.png);}
-  
-  </style>
+    <title>(Hu)go Template Primer &middot; Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="Grupo de Estudos em Eletrônica Embarcada">
+    <meta name="generator" content="Hugo 0.14" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
 </head>
 <body>
-  <ul id="slide-out" class="side-nav">
-    <li><a href="http://localhost:1313/"><i class="mdi-action-home left"></i>Home<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="http://localhost:1313//categories"><i class="mdi-action-perm-media left"></i>Categories<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-    <li><a href="http://localhost:1313//tags"><i class="mdi-action-loyalty left"></i>Tags<i class="mdi-hardware-keyboard-arrow-right right"></i></a></li>
-  </ul>
-  <div id="index-banner" class="parallax-container">
-  <a data-activates="slide-out" class="btn-floating button-collapse" style="top: 5px; left: 5px;"><i class="mdi-navigation-menu"></i></a>
-    <div class="section no-pad-bot">
-      <div class="container">
-        
-        <h1 class="header center teal-text text-lighten-2">Blog</h1>
-        <div class="row center">
-          <h5 class="header col s12 light">Grupo de Estudos em Eletrônica Embarcada</h5>
-        </div>
-        <div class="row center">
-        
-          <a href="https://github.com/GEEE-UEFS"><img src="http://localhost:1313//images/github2-dreamstale35.png"></a>
-        
-        
-        
-        
-        
-          <a href="http://localhost:1313//index.xml"><img src="http://localhost:1313//images/feed-dreamstale27.png"></a>
-        </div>
-      </div>
-    </div>
-    <div class="parallax">
     
-      <img src="http://localhost:1313//images/default.png">
-    
+    <div class="off-canvas">
+    <figure class="avatar">
+        <img src="http://localhost:1313/img/avatar.jpg" title="">
+    </figure>
+    <div class="bio">
+        
+        <h1>GEEE UEFS</h1>
+        
+        
+        <p>Grupo de Estudos em Eletrônica Embarcada</p>
+        
     </div>
-  </div>
+    <nav>
+        
+        <h6>Subscribe</h6>
+        
 
+        <ul>
+            <li><a target="_blank" href="http://localhost:1313/index.xml">RSS feed</a></li>
+        </ul>
 
+        
+        <h6>Siga-nos!</h6>
+        
 
-<div class="container">
-  <div class="section">
+        <ul>
+        
+            <li><a target="_blank" href="//github.com/geee-uefs">Github</a></li>
+        
+            <li><a target="_blank" href="//twitter.com/geee-uefs">Twitter</a></li>
+        
+        </ul>        
+    </nav>
+</div>
 
-    <div class="row">
-      <div class="col s12">
-        <div class="card-panel">
-          <h4>(Hu)go Template Primer</h4>
-          <p>
-          
-            
-              <a href="http://localhost:1313//categories/development/">Development</a>
-            
-              <a href="http://localhost:1313//categories/golang/">golang</a>
-            
-           
-          </p>
-          <p>
+    <div class="site-wrapper">
+        <header>
+	<div class="h-wrap">
+		
+		<h1 class="title"><a href="http://localhost:1313/">Blog</a></h1>
+		
+		<a class="menu-icon" title="Menu"><span class="lines"></span></a>
+	</div>
+</header>
+        
+        <section class="single-wrap">
+            <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
+                <div class="feat">
+                    <h5 class="page-date">
+                    <time datetime="" itemprop="datePublished">
+                    4. April 2014
+                    </time>
+                    </h5>
+                </div>
+                <h1 class="page-title" itemprop="name headline">(Hu)go Template Primer</h1>
+                <div itemprop="articleBody">
+                    
 
 <p>Hugo uses the excellent <a href="http://golang.org/&gt;">go</a> <a href="http://golang.org/pkg/html/template/&gt;">html/template</a> library for
 its template engine. It is an extremely lightweight engine that provides a very
@@ -402,76 +413,46 @@ so, such as in this example:</p>
   {{end}}&lt;/ul&gt;
 &lt;/nav&gt;
 </code></pre>
-</p>
-          <p>2 Apr 2014
-            
-              
-                <a href="http://localhost:1313//tags/go/">#go</a>
-              
-                <a href="http://localhost:1313//tags/golang/">#golang</a>
-              
-                <a href="http://localhost:1313//tags/templates/">#templates</a>
-              
-                <a href="http://localhost:1313//tags/themes/">#themes</a>
-              
-                <a href="http://localhost:1313//tags/development/">#development</a>
-              
-            
-          </p>
-          
-            <div id="disqus_thread"></div>
-<script type="text/javascript">
-     
-    var disqus_shortname = 'Your Disqus Name';
+
+                </div>
+                <div class="feat share">
+                    <a href="//twitter.com/share" class="popup">
+                        <span class="icon-twitter"></span>
+                    </a>
+                </div>
+                
+                
+
+                
+                    <a rel="next" href="http://localhost:1313/2015/12/02/esp8266-e-nodemcu/" id="next">
+                        <span class="nav-title nav-title-next"></span> &rarr;
+                    </a>
+                
+                
+                    <a rel="prev" href="http://localhost:1313/2014/04/02/getting-started-with-hugo/" id="prev">
+                        &larr; <span class="nav-title nav-title-prev"></span>
+                    </a>
+                
+            </article>
+        </section>
+
+        <footer>
+	
+	<small>POWERED BY <a href="//gohugo.io">HUGO</a> - THEME: <a href="//github.com/digitalcraftsman/hugo-hikari-theme">HIKARI</a> - © GEEE-UEFS</small>
+	
+</footer>
+    </div>
     
-     
-    (function() {
-        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-          
-        </div>
-      </div>
-    </div>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://localhost:1313/js/main.js"></script>
 
-    <div class="row">
-      <div class="col s3 m1">
-      
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://localhost:1313/2014/04/02/getting-started-with-hugo/"><i class="mdi-navigation-arrow-back"></i></a>
-      
-      </div>
-      <div class="col s6 m10 center">&nbsp</div>
-      <div class="col s3 m1">
-      
-        <a class="btn-floating btn-large waves-effect waves-light" href="http://localhost:1313/2014/09/28/creating-a-new-theme/"><i class="mdi-navigation-arrow-forward"></i></a>
-      
-      </div>
-    </div>
 
-  </div>
-</div>
 
-  <footer class="page-footer">
-    <div class="footer-copyright">
-      <div class="container">
-      © 2016 Copyright Text
-      <div class="right">Design <a class="grey-text text-lighten-4" href="http://pdevty.github.io/blog/">pdevty</a></div>
-      </div>
-    </div>
-  </footer>
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="http://localhost:1313//js/materialize.min.js"></script>
-  <script src="http://localhost:1313//js/init.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
-  <script>hljs.initHighlightingOnLoad();</script>
-  
-
-  <script data-no-instant>document.write('<script src="http://'
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script data-no-instant>document.write('<script src="http://'
         + (location.host || 'localhost').split(':')[0]
 		+ ':1313/livereload.js?mindelay=10"></'
         + 'script>')</script></body>
 </html>
-
