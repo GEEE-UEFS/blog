@@ -2,6 +2,9 @@
 
 echo -e "\033[0;32mDeploying updates to Github...\033[0m"
 
+# Clear the old folder
+rm -rf public/
+
 # Build the project.
 hugo
 
