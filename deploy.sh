@@ -6,7 +6,7 @@ echo -e "\033[0;32mDeploying updates to Github...\033[0m"
 rm -rf public/
 
 # Build the project.
-hugo
+hugo -t casper
 
 # Add changes to git.
 git add -A
