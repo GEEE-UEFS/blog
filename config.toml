@@ -1,7 +1,7 @@
 theme="hikari"
 baseurl = "http://geee-uefs.github.io/blog/"
 languageCode = "pt-br"
-title = "Blog"
+title = "Grupo de Estudos em Eletrônica Embarcada"
 MetaDataFormat = "toml"
 paginate = 9 # To specify a multiple of 3
 copyright = "© 2016 Copyright Text"
