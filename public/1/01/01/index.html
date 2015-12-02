@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+
+
+ <html class="no-js"> 
+<head>
+    <title> &middot; Blog</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="author" content="">
+    <meta name="description" content="Grupo de Estudos em Eletrônica Embarcada">
+    <meta name="generator" content="Hugo 0.14" />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" type="text/css" href="http://localhost:1313/css/main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/tomorrow.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+</head>
+<body>
+    
+    <div class="off-canvas">
+    <figure class="avatar">
+        <img src="http://localhost:1313/img/avatar.jpg" title="">
+    </figure>
+    <div class="bio">
+        
+        <h1>GEEE UEFS</h1>
+        
+        
+        <p>Grupo de Estudos em Eletrônica Embarcada</p>
+        
+    </div>
+    <nav>
+        
+        <h6>Subscribe</h6>
+        
+
+        <ul>
+            <li><a target="_blank" href="http://localhost:1313/index.xml">RSS feed</a></li>
+        </ul>
+
+        
+        <h6>Siga-nos!</h6>
+        
+
+        <ul>
+        
+            <li><a target="_blank" href="//github.com/geee-uefs">Github</a></li>
+        
+            <li><a target="_blank" href="//twitter.com/geee-uefs">Twitter</a></li>
+        
+        </ul>        
+    </nav>
+</div>
+
+    <div class="site-wrapper">
+        <header>
+	<div class="h-wrap">
+		
+		<h1 class="title"><a href="http://localhost:1313/">Blog</a></h1>
+		
+		<a class="menu-icon" title="Menu"><span class="lines"></span></a>
+	</div>
+</header>
+        
+        <section class="single-wrap">
+            <article class="single-content" itemscope itemtype="//schema.org/BlogPosting">
+                <div class="feat">
+                    <h5 class="page-date">
+                    <time datetime="" itemprop="datePublished">
+                    1. January 0001
+                    </time>
+                    </h5>
+                </div>
+                <h1 class="page-title" itemprop="name headline"></h1>
+                <div itemprop="articleBody">
+                    <p>#ESP8266 e NodeMCU
+O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.</br></p>
+
+<p>O principal objetivo desse projeto é disponibilizar um material de consulta fornecendo exemplos prontos e comentados que irão guiar seus projetos em IoT utilizam o ESP8266+NodeMCU.</br></br></p>
+
+<p>##O que você precisa para começar</p>
+
+<p>Além do ESP8266, você precisa de um conversor usb/uart e  uma fonte de alimentação de 3.3V.</br>
+As ligações necessárias podem ser vistas na imagem abaixo.</br></p>
+
+<p><img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/Liga%C3%A7%C3%B5es%20ESP.png" alt="ligacoes" /></br></p>
+
+<p>Há basicamente três modulos de operação: atualização de firmware, upload de novos programas e modo de operação.</br>
+Para atualização de firmware, todas as ligações apresentadas na imagem acima devem ser utilizadas.</br>
+Para upload de novos programas, apenas as ligações em preto e vermelho.</br>
+Para o modo de operação, é necessario apenas as ligações em preto.</br></br></p>
+
+<p>##Instalando o nodeMCU
+###Windows
+Download do nodeMCU-flasher para: </br>
+    -32 bits: <a href="https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release">https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release</a></br>
+    -64 bits: <a href="https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release">https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release</a></br></p>
+
+<p>Após o download, conecte o módulo ao computador conforme as instruçõescom para o modo atualização de firmare e abra o executável e clique no botão Flash(F).</br>
+<img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/1.png" alt="Instalando1" /></br>
+Espere até o processo ser concluido.</br>
+<img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/2.png" alt="Instalando2" /></br>
+Quando aparecer o símbolo de confirmado na parte inferior da janela ao lado da frase &ldquo;NODEMCU TEAM&rdquo; significa que o firmware foi atualizado.</br>
+<img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/3.png" alt="Instalando3" /></br>
+Na aba &ldquo;Config&rdquo; estará desse jeito.</br>
+<img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/4.png" alt="Instalando4" /></br></p>
+
+<p>##IDE para upload
+Uma boa opção de IDE para gravar arquivos no módulo é o Esplorer, que possui suporte para Windowns(x86, x86-64), Linux(x86,, x86-64, ARM soft &amp; hard float), Solaris(x86, x86-64), Mac OS X(x86, x86-64, PPC, PPC64).
+O download pode ser feito no link: </br>
+    <a href="http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip</a>
+</br>
+<img src="https://raw.githubusercontent.com/GEEE-UEFS/ESP8266/master/images/ide_esplorer.png" alt="Esplorer" />
+    IDE do Esplorer</p>
+
+                </div>
+                <div class="feat share">
+                    <a href="//twitter.com/share" class="popup">
+                        <span class="icon-twitter"></span>
+                    </a>
+                </div>
+                
+                
+
+                
+                    <a rel="next" href="http://localhost:1313/2014/04/02/getting-started-with-hugo/" id="next">
+                        <span class="nav-title nav-title-next"></span> &rarr;
+                    </a>
+                
+                
+                    <a rel="prev" href="http://localhost:1313/2014/09/28/creating-a-new-theme/" id="prev">
+                        &larr; <span class="nav-title nav-title-prev"></span>
+                    </a>
+                
+            </article>
+        </section>
+
+        <footer>
+	
+	<small>POWERED BY <a href="//gohugo.io">HUGO</a> - THEME: <a href="//github.com/digitalcraftsman/hugo-hikari-theme">HIKARI</a> - © GEEE-UEFS</small>
+	
+</footer>
+    </div>
+    
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+<script src="http://localhost:1313/js/main.js"></script>
+
+
+
+<!-- Syntax highlighting -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+<script data-no-instant>document.write('<script src="http://'
+        + (location.host || 'localhost').split(':')[0]
+		+ ':1313/livereload.js?mindelay=10"></'
+        + 'script>')</script></body>
+</html>

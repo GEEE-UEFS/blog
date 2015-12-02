@@ -1,39 +1,33 @@
-baseurl = "http://replace-this-with-your-domain.com/"
-languageCode = "en-us"
-title = "hikari"
-theme = "hugo-hikari-theme"
-
-[permalinks]
-	post = "/:year/:month/:day/:slug"
+theme="material-design"
+baseurl = "Your Site URL"
+languageCode = "pt-br"
+title = "Blog"
+MetaDataFormat = "toml"
+paginate = 9 # To specify a multiple of 3
+disqusShortname = "Your Disqus Name" # optional
+copyright = "© 2016 Copyright Text"
 
 [params]
-	name = "Your name"
-	description = "Describe your website"
-	copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © JOHN DOE"
-
-	# Enable comments by entering your Disqus shortname
-	disqusshortname = "spf13"
-	# Enable Google Analytics by entering your tracking code
-	googleanalytics = ""
-
-	# Links to newer/older blog posts
-	newer = "Newer"
-	older = "Older"
-
-	pageNotFoundTitle = "Page not found"
+  description = "Grupo de Estudos em Eletrônica Embarcada" # optional
+  github = "GEEE-UEFS" # optional
+  copyright = "POWERED BY [HUGO](//gohugo.io) - THEME: [HIKARI](//github.com/digitalcraftsman/hugo-hikari-theme) - © GEEE-UEFS"
+  pageNotFoundTitle = "Page not found"
 	pageNotFoundSubtitle = "Sorry, but the requested page wasn’t <br> found on the server."
 
-[params.offcanvas]
-	# Menu items
-	title = "Hi, I'm John Doe"
-	bio = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, pariatur!"
-	subscribe = "Subscribe"
-	followme = "Follow me on"
+[permalinks]
+  post = "/:year/:month/:day/:title/" # optional
 
-	[[params.offcanvas.socialnetworks]]
-		name = "Github"
-		url = "//github.com/spf13"
+  [params.offcanvas]
+  	# Menu items
+  	title = "GEEE UEFS"
+  	bio = "Grupo de Estudos em Eletrônica Embarcada"
+  	subscribe = "Subscribe"
+  	followme = "Siga-nos!"
 
-	[[params.offcanvas.socialnetworks]]
-		name = "Twitter"
-		url = "//twitter.com/spf13"
+  	[[params.offcanvas.socialnetworks]]
+  		name = "Github"
+  		url = "//github.com/geee-uefs"
+
+  	[[params.offcanvas.socialnetworks]]
+  		name = "Twitter"
+  		url = "//twitter.com/geee-uefs"
