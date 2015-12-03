@@ -1,13 +1,13 @@
 BaseUrl= "http://geee-uefs.github.io/blog/"
 LanguageCode= "pt-BR"
-Title= "Blog"
+Title= "GEEE"
 paginate = 5
 DisqusShortname = "geee-uefs"
 Copyright = "All rights reserved - 2016"
 canonifyurls = true
 
 [params]
-  description = "this is my description"
+  description = "Grupo de Estudos de Eletrônica Embarcada"
   cover = "images/cover.jpg"
   author = "Valère JEANTET"
   authorlocation = "Paris, France"
