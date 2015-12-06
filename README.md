@@ -8,6 +8,8 @@ Esse é o blog do Grupo de Estudos de Eletrônica Embarcados, onde os integrante
 
 ## Executando localmente
 
+Uma vez instalado as dependências acima, execute no shell os comandos abaixo:
+
 ```shell
 $ git clone https://github.com/GEEE-UEFS/blog.git
 $ cd blog
