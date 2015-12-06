@@ -5,6 +5,7 @@ paginate = 5
 DisqusShortname = "geee-uefs"
 Copyright = "All rights reserved - 2016"
 canonifyurls = true
+theme = "casper"
 
 [params]
   description = "Grupo de Estudos de Eletrônica Embarcada"
