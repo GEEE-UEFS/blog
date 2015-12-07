@@ -1,3 +1,4 @@
+language: go
 before_install:
   - brew update
   - brew install hugo
