@@ -1,4 +1,5 @@
 language: go
+os: osx
 sudo: required
 before_install:
   - brew update
