@@ -1,0 +1,5 @@
+before_install:
+  - brew update
+  - brew install hugo
+deploy:
+  - bash deploy.sh
