@@ -1,7 +1,7 @@
-  language: go
-  os: osx
-  sudo: required
-  before_install:
-    - brew update
-    - brew install hugo
-  script: bash ./deploy.sh
+language: go
+os: osx
+install: true
+before_deploy:
+  - brew update
+  - brew install hugo
+script: bash ./deploy.sh
