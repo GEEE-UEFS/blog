@@ -3,7 +3,7 @@ os: osx
 before_install:
   - brew update
   - brew install hugo
-  - rm .git/objects/pack/*.pack
+  - rm -f .git/objects/pack/*.pack
 install:
   - hugo -d dist/
 script: bash ./deploy.sh
