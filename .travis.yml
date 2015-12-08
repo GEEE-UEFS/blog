@@ -9,3 +9,4 @@ script: bash ./deploy.sh
 env:
   global:
     - secure: "5606350e28cad249e5260ce04da5a20f58e186c2"
+    - GIT_DEPLOY_REPO=https://$GITHUB_TOKEN@github.com/GEEE-UEFS/blog.git
