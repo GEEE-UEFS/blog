@@ -2,8 +2,7 @@ language: go
 os: osx
 before_install:
   - brew update
-  - brew install hugo
-  - rm .git/objects/pack/pack-4ac0747e0ae7cdf0a606e1d806fa3c4af0761ddc.pack
+  - brew install hugo  
 install:
   - hugo -d dist/
 script: bash ./deploy.sh
