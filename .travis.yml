@@ -1,9 +1,10 @@
 language: go
 os: osx
-install: true
 before_install:
   - brew update
   - brew install hugo
+install:
+  - hugo -d dist/
 script: bash ./deploy.sh
 env:
   global:
