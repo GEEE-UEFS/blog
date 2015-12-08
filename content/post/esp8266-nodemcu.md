@@ -5,7 +5,8 @@ title = "ESP8266 e NodeMCU"
 categories = [
     "ESP8266",
     "Embarcados",
-		"NodeMCU"
+		"NodeMCU",
+    "Lua"
 ]
 +++
 
