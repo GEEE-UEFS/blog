@@ -29,8 +29,8 @@ Para o modo de operação, é necessario apenas as ligações em preto.
 ## Instalando o nodeMCU
 ### Windows
 Download do nodeMCU-flasher para:   
-	-32 bits: https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release  
-	-64 bits: https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release  
+	- [32 bits](https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release)
+	- [64 bits](https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release) 
 
 Após o download, conecte o módulo ao computador conforme as instruçõescom para o modo atualização de firmare e abra o executável e clique no botão Flash(F).  
 ![Instalando1](/images/esp8266-nodemc-tutorial/1.png)  
