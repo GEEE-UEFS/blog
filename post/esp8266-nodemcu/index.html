@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+  	<meta property="og:title" content=" ESP8266 e NodeMCU &middot;  GEEE" />
+  	<meta property="og:site_name" content="GEEE" />
+  	<meta property="og:url" content="http://www.geee.com.br/post/esp8266-nodemcu/" />
+
+    
+  	<meta property="og:type" content="article" />
+
+    <meta property="og:article:published_time" content="2015-12-02T00:00:00Z" />
+
+    
+    
+
+  <title>
+     ESP8266 e NodeMCU &middot;  GEEE
+  </title>
+
+    <meta name="description" content="Grupo de Estudos de Eletrônica Embarcada" />
+
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="shortcut icon" href="http://www.geee.com.br/images/favicon.ico">
+	  <link rel="apple-touch-icon" href="http://www.geee.com.br/images/apple-touch-icon.png" />
+
+    <link rel="stylesheet" type="text/css" href="http://www.geee.com.br/css/screen.css" />
+    <link rel="stylesheet" type="text/css" href="http://www.geee.com.br/css/nav.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400|Inconsolata" />
+
+
+    
+      
+          <link href="http://www.geee.com.br/index.xml" rel="alternate" type="application/rss+xml" title="GEEE" />
+      
+      
+    
+    <meta name="generator" content="Hugo 0.15" />
+
+    <link rel="canonical" href="http://www.geee.com.br/post/esp8266-nodemcu/" />
+
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-79101-12', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+    
+
+    
+</head>
+<body class="nav-closed">
+
+  <div class="nav">
+    <h3 class="nav-title">Menu</h3>
+    <a href="#" class="nav-close">
+        <span class="hidden">Close</span>
+    </a>
+    <ul>
+        
+        
+        
+    </ul>
+    
+    
+    <a class="subscribe-button icon-feed" href="http://www.geee.com.br/index.xml">Subscribe</a>
+    
+</div>
+<span class="nav-cover"></span>
+
+
+ <div class="site-wrapper">
+
+
+
+
+<header class="main-header post-head no-cover">
+  <nav class="main-nav clearfix">
+
+
+  
+      <a class="blog-logo" href="http://www.geee.com.br/"><img src="http://www.geee.com.br/images/logo.png" alt="Home" /></a>
+  
+  
+      <a class="menu-button icon-feed" href="http://www.geee.com.br/index.xml">&nbsp;&nbsp;Subscribe</a>
+  
+  </nav>
+</header>
+
+
+
+<main class="content" role="main">
+
+
+
+
+  <article class="post post">
+
+    <header class="post-header">
+        <h1 class="post-title">ESP8266 e NodeMCU</h1>
+        <small></small>
+
+        <section class="post-meta">
+        
+          <time class="post-date" datetime="2015-12-02T00:00:00Z">
+            Dec 2, 2015
+          </time>
+        
+         
+        </section>
+    </header>
+
+    <section class="post-content">
+      
+
+<p>O ESP8266 é fabricado pela Espressif Systems e possui um SoC Wi-Fi integrado com um chip Tensilica Xtensa LX106 e usando o firmware open-source NodeMCU é possível criar aplicações IoT com scripts em Lua.</p>
+
+<p>O principal objetivo desse projeto é disponibilizar um material de consulta fornecendo exemplos prontos e comentados que irão guiar seus projetos em IoT utilizam o ESP8266+NodeMCU.</p>
+
+<h2 id="o-que-você-precisa-para-começar:abb75c0fa4516ee7d9731b136bf5f22b">O que você precisa para começar</h2>
+
+<p>Além do ESP8266, você precisa de um conversor usb/uart e  uma fonte de alimentação de 3.3V.<br />
+As ligações necessárias podem ser vistas na imagem abaixo.</p>
+
+<p><img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/Liga%C3%A7%C3%B5es%20ESP.png" alt="ligacoes" /></p>
+
+<p>Há basicamente três modulos de operação: atualização de firmware, upload de novos programas e modo de operação.<br />
+Para atualização de firmware, todas as ligações apresentadas na imagem acima devem ser utilizadas.<br />
+Para upload de novos programas, apenas as ligações em preto e vermelho.<br />
+Para o modo de operação, é necessario apenas as ligações em preto.</p>
+
+<h2 id="instalando-o-nodemcu:abb75c0fa4516ee7d9731b136bf5f22b">Instalando o nodeMCU</h2>
+
+<h3 id="windows:abb75c0fa4516ee7d9731b136bf5f22b">Windows</h3>
+
+<p>Download do nodeMCU-flasher para:<br />
+    - <a href="https://github.com/nodemcu/nodemcu-flasher/tree/master/Win32/Release">32 bits</a>
+    - <a href="https://github.com/nodemcu/nodemcu-flasher/tree/master/Win64/Release">64 bits</a></p>
+
+<p>Após o download, conecte o módulo ao computador conforme as instruçõescom para o modo atualização de firmare e abra o executável e clique no botão Flash(F).<br />
+<img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/1.png" alt="Instalando1" /><br />
+Espere até o processo ser concluido.<br />
+<img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/2.png" alt="Instalando2" /><br />
+Quando aparecer o símbolo de confirmado na parte inferior da janela ao lado da frase &ldquo;NODEMCU TEAM&rdquo; significa que o firmware foi atualizado.<br />
+<img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/3.png" alt="Instalando3" /><br />
+Na aba &ldquo;Config&rdquo; estará desse jeito.<br />
+<img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/4.png" alt="Instalando4" /></p>
+
+<h2 id="ide-para-upload:abb75c0fa4516ee7d9731b136bf5f22b">IDE para upload</h2>
+
+<p>Uma boa opção de IDE para gravar arquivos no módulo é o Esplorer, que possui suporte para Windowns(x86, x86-64), Linux(x86,, x86-64, ARM soft &amp; hard float), Solaris(x86, x86-64), Mac OS X(x86, x86-64, PPC, PPC64).
+O download pode ser feito no link:<br />
+    <a href="http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip">http://esp8266.ru/esplorer-latest/?f=ESPlorer.zip</a></p>
+
+<p><img src="http://www.geee.com.br/images/esp8266-nodemc-tutorial/ide_esplorer.png" alt="Esplorer" />
+    IDE do Esplorer</p>
+
+    </section>
+
+
+  <footer class="post-footer">
+
+
+    
+    <figure class="author-image">
+        <a class="img" href="http://www.geee.com.br/" style="background-image: url(http://www.geee.com.br/images/logo.png)"><span class="hidden">GEEE's Picture</span></a>
+    </figure>
+    
+
+    
+
+
+
+
+
+<section class="author">
+  <h4><a href="http://www.geee.com.br/">Fábio Bispo</a></h4>
+  
+  <p>É estudante do curso de Engenharia de Computação na Universidade Estadual de Feira de Santana (UEFS). Atualmente é Bolsista no Laboratório de Sistemas Embarcados-UEFS. Tem experiência na área de Arquitetura de Sistemas de Computação atuando principalmente em Decodificação de Áudio, Computação Visual e Robótica Móvel com ênfase em soluções em FPGA. Foi membro do projeto Brazil-IP (2010-2013). Possui conhecimentos no fluxo desenvolvimento de aplicações para FPGA e desenvolvimento de projetos em ASIC desde a especificação, documentação, verificação funcional, desenvolvimento de RTL e Síntese Lógica e Layout, além de possuir conhecimentos em microcontroladores.</p>
+  
+  <div class="author-meta">
+    <span class="author-location icon-location">Feira de Santana, BA</span>
+    <span class="author-link icon-link"><a href="https://github.com/fabiobispo">https://github.com/fabiobispo</a></span>
+  </div>
+</section>
+
+
+
+    
+<section class="share">
+  <h4>Share this post</h4>
+  <a class="icon-twitter" style="font-size: 1.4em" href="https://twitter.com/share?text=ESP8266%20e%20NodeMCU&amp;url=http%3a%2f%2fwww.geee.com.br%2fpost%2fesp8266-nodemcu%2f"
+      onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+      <span class="hidden">Twitter</span>
+  </a>
+  <a class="icon-facebook" style="font-size: 1.4em" href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.geee.com.br%2fpost%2fesp8266-nodemcu%2f"
+      onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+      <span class="hidden">Facebook</span>
+  </a>
+  <a class="icon-pinterest" style="font-size: 1.4em" href="http://pinterest.com/pin/create/button/?url=http%3a%2f%2fwww.geee.com.br%2fpost%2fesp8266-nodemcu%2f&amp;description=ESP8266%20e%20NodeMCU"
+      onclick="window.open(this.href, 'pinterest-share','width=580,height=296');return false;">
+      <span class="hidden">Pinterest</span>
+  </a>
+  <a class="icon-google-plus" style="font-size: 1.4em" href="https://plus.google.com/share?url=http%3a%2f%2fwww.geee.com.br%2fpost%2fesp8266-nodemcu%2f"
+     onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+      <span class="hidden">Google+</span>
+  </a>
+</section>
+
+
+
+    
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+  var disqus_shortname = 'geee-uefs';
+  var disqus_url = 'http:\/\/www.geee.com.br\/post\/esp8266-nodemcu\/';
+  (function() {
+    var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+    dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+    (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+  })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+
+
+  </footer>
+</article>
+
+</main>
+    <footer class="site-footer clearfix">
+        <section class="copyright"><a href="">GEEE</a> All rights reserved - 2016</section>
+        
+        <section class="poweredby">Proudly generated by <a class="icon-hugo" href="http://gohugo.io">HUGO</a>, with <a class="icon-theme" href="https://github.com/vjeantet/hugo-theme-casper">Casper</a> theme</section>
+        
+    </footer>
+    </div>
+    <script type="text/javascript" src="http://www.geee.com.br/js/jquery.js"></script>
+    <script type="text/javascript" src="http://www.geee.com.br/js/jquery.fitvids.js"></script>
+    <script type="text/javascript" src="http://www.geee.com.br/js/index.js"></script>
+    
+</body>
+</html>
+
